@@ -2,13 +2,13 @@
 var gh = new GitHub({
    username: 'marker123',
    password: 'iphone5s',
-   token: '424788152ca446862c4e8f5a187e605b566eca23'
+   token: '8b205b9610f534e285d29a2f737d2927076b131c'
 
 });
 
 var naam = localStorage.getItem("gebruikersnaam");
 
-var gebruiker = gh.getUser(naam);
 
+var gebruiker = gh.getUser("ayachi");
 
 gebruiker.follow();
