@@ -30,7 +30,6 @@ body {
   top: 50%;
   left: 50%;
   background-color: Silver;
-   border-radius: 50px 20px
 
 }
 
@@ -43,5 +42,15 @@ body {
   border-style: solid;
   border-color: white;
   border-width: 10px;
+
+}
+
+
+
+#zoeka
+{
+  border-radius: 50px;
+  
+
 
 }
