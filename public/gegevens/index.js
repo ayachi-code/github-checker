@@ -10,4 +10,4 @@ var naam = localStorage.getItem("gebruikersnaam");
 
 console.log(naam);
 
-var gebruiker = gh.getUser("ayachi-code");
+var gebruiker = gh.getUser(naam);
