@@ -50,7 +50,9 @@ body {
 #zoeka
 {
   border-radius: 50px;
-  
+  border-color: red;
+  color: red;
+  text-align: center;
 
 
 }
