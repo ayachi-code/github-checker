@@ -16,11 +16,13 @@ gebruiker.getProfile(function (err,cb) {
       var naam_gebruiker = cb.name;
       var gebruikersnaam = cb.login;
       var volgers = cb.followers;
+      var volgen = cb.following;
       var titel = document.getElementById('titel').innerHTML = "gebruiker " + naam_gebruiker;
       var welkom = document.getElementById('welkom').innerHTML = "Informatie over gebruiker " + gebruikersnaam;
       var vn = document.getElementById('vn').innerHTML = naam_gebruiker;
       var gb = document.getElementById('gb').innerHTML = gebruikersnaam;
       var fw = document.getElementById('fw').innerHTML = volgers;
+      var mfw = document.getElementById('mfw').innerHTML = volgen;
 
 
       console.log(cb);
