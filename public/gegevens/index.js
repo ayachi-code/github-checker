@@ -6,3 +6,5 @@ var gh = new GitHub({
    token: '02342bfa98ebe7fa028ff0e2aaf98214113aceaf'
 
 });
+
+var gebruiker = gh.getUser("ayachi-code");
