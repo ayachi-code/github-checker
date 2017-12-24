@@ -29,5 +29,19 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
+  background-color: Silver;
+   border-radius: 50px 20px
+
+}
+
+
+.boven
+{
+  width: 250px;
+  height: 40px;
+  background-color: Gainsboro;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
 
 }
