@@ -1,4 +1,3 @@
-const GitHub = require('github-api');
 
 var gh = new GitHub({
    username: 'marker123',
@@ -7,8 +6,10 @@ var gh = new GitHub({
 
 });
 
-var naam = localStorage.getItem("gebruikersnaam");
+//var naam = localStorage.getItem("gebruikersnaam");
 
-console.log(naam);
+//console.log(naam);
 
 var gebruiker = gh.getUser("ayachi-code");
+
+console.log(gebruiker);
