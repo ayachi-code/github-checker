@@ -7,4 +7,6 @@ var gh = new GitHub({
 
 });
 
+var naam = localStorage.getItem("gebruikersnaam");
+
 var gebruiker = gh.getUser("ayachi-code");
