@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ayachi-code/github-checker/issues"
   },
-  "homepage": "https://github.com/ayachi-code/github-checker#readme"
+  "homepage": "https://github.com/ayachi-code/github-checker#readme",
+  "dependencies": {
+    "github-api": "^3.0.0"
+  }
 }
