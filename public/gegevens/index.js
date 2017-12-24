@@ -38,3 +38,8 @@ gebruiker.getProfile(function (err,cb) {
       console.log(cb);
 
 });
+
+
+document.getElementById('knop').addEventListener('click',() => {
+  window.location.href = '/index.html'
+})
