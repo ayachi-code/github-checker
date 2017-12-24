@@ -13,5 +13,7 @@ var gebruiker = gh.getUser(naam);
 
 
 gebruiker.getProfile(function (err,cb) {
-      console.log(cb);
+      var naam_gebruiker = cb.name;
+      var titel = document.getElementById('titel').innerHTML = "gebruiker " + naam_gebruiker;
+
 });
