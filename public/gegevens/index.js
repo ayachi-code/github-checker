@@ -9,7 +9,7 @@ var gh = new GitHub({
 var naam = localStorage.getItem("gebruikersnaam");
 
 
-var gebruiker = gh.getUser("ayachi-code");
+var gebruiker = gh.getUser(naam);
 
 
 gebruiker.getProfile(function (err,cb) {
