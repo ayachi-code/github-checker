@@ -14,6 +14,8 @@ var gebruiker = gh.getUser(naam);
 
 gebruiker.getProfile(function (err,cb) {
       var naam_gebruiker = cb.name;
+      var gebruikersnaam = cb.login;
       var titel = document.getElementById('titel').innerHTML = "gebruiker " + naam_gebruiker;
+      var welkom = document.getElementById('welkom').innerHTML = "Informatie over gebruiker " + gebruikersnaam;
 
 });
