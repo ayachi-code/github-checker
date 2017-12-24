@@ -21,6 +21,7 @@ gebruiker.getProfile(function (err,cb) {
       var reposetorys = cb.public_repos;
       var bioo = cb.bio;
       var site = cb.blog;
+      var tp = cb.type;
       var titel = document.getElementById('titel').innerHTML = "gebruiker " + naam_gebruiker;
       var welkom = document.getElementById('welkom').innerHTML = "Informatie over gebruiker " + gebruikersnaam;
       var vn = document.getElementById('vn').innerHTML = naam_gebruiker;
@@ -31,6 +32,7 @@ gebruiker.getProfile(function (err,cb) {
       var sp = document.getElementById('sp').innerHTML = reposetorys;
       var bio = document.getElementById('bio').innerHTML = bioo;
       var website = document.getElementById('website').innerHTML = site;
+      var typen = document.getElementById('typen').innerHTML = tp;
 
 
       console.log(cb);
