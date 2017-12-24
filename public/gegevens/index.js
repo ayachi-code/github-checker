@@ -17,5 +17,6 @@ gebruiker.getProfile(function (err,cb) {
       var gebruikersnaam = cb.login;
       var titel = document.getElementById('titel').innerHTML = "gebruiker " + naam_gebruiker;
       var welkom = document.getElementById('welkom').innerHTML = "Informatie over gebruiker " + gebruikersnaam;
+      var vn = document.getElementById('vn').innerHTML = naam_gebruiker;
 
 });
