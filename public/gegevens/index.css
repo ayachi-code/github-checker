@@ -17,5 +17,14 @@ body {
 #welkom
 {
   color: white;
-  font-family: cursive;;
+  font-family: cursive;
+  margin-top: 0px;
+}
+
+
+#foto
+{
+  width: 10px;
+  height: 10px;
+  margin-left: 700px;
 }
