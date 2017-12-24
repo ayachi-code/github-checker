@@ -2,7 +2,7 @@
 var gh = new GitHub({
    username: 'marker123',
    password: 'iphone5s',
-   token: 'f32d39543537f723d39cbe3b8ea45f5ba0e0579b'
+   token: 'c9acdd68e3aa27f8500f317e7b89021b33796b28'
 
 });
 
